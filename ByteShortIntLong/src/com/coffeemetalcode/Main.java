@@ -17,10 +17,10 @@ public class Main {
         System.out.println("Short Max Value = " + maxShortVal);
 
         /* integer - 32 bits */
-        int myMinIntValue = Integer.MIN_VALUE;
-        int myMaxIntValue = Integer.MAX_VALUE;
-        System.out.println("Integer Min Value = " + myMinIntValue);
-        System.out.println("Integer Max Value = " + myMaxIntValue);
+        int minIntValue = Integer.MIN_VALUE;
+        int maxIntValue = Integer.MAX_VALUE;
+        System.out.println("Integer Min Value = " + minIntValue);
+        System.out.println("Integer Max Value = " + maxIntValue);
 
         /* long - 64 bits */
         long minLongVal = Long.MIN_VALUE;
@@ -28,5 +28,26 @@ public class Main {
         System.out.println("Long Min Value = " + minLongVal);
         System.out.println("Long Max Value = " + maxLongVal);
 
+        /* casting */
+        int intTotal = (maxIntValue / 2);
+        byte byteTotal = (byte) (minByteVal / 2);
+        short shortTotal = (short) (maxShortVal / 2);
+        long longTotal = (minLongVal / 2);
+
+        /* challenge PrimitiveTypesChallenge */
+        // create a valid byte variable
+        byte challengeByte = -99;
+
+        // create a valid short variable
+        short challengeShort = 20001;
+
+        // create a valid int variable
+        int challengeInt = 2147483647;
+
+        // create a long variable and make it equal to 50,000 plus 10 times the sum of the byte plus the short plus
+        // the integer
+        long challengeLong = 50000L + (10L * (challengeByte + challengeShort + challengeInt));
+
+        System.out.println("challenge result = " + challengeLong);
     }
 }
