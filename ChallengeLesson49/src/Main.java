@@ -25,17 +25,16 @@ public class Main {
     }
 
     public static int calculateHighScorePosition(int score) {
-        int position;
+        int position = 4;
 
         if (score >= 1000) {
             position = 1;
-        } else if (score >= 500 && score < 1000) {
+        } else if (score >= 500) {
             position = 2;
-        } else if (score >= 100 && score < 500) {
+        } else if (score >= 100) {
             position = 3;
-        } else {
-            position = 4;
         }
+
         return position;
     }
 }
