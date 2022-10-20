@@ -38,5 +38,28 @@ public class Main {
 //        TeenNumberChecker.hasTeen(9, 99, 19);
 //        TeenNumberChecker.hasTeen(23, 15, 42);
 //        TeenNumberChecker.hasTeen(22, 23, 34);
+
+        /* Area Calculator */
+//        AreaCalculator.area(5.0d);
+//        AreaCalculator.area(-1);
+//        AreaCalculator.area(5.0d, 4.0d);
+//        AreaCalculator.area(-1.0d, 4.0d);
+
+        /* Minutes to Years and Days Calculator */
+//        MinutesToYearsDaysCalculator.printYearsAndDays(525600);
+//        MinutesToYearsDaysCalculator.printYearsAndDays(1051200);
+//        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+
+        /* Equality Printer */
+//        EqualityPrinter.printEqual(1, 1, 1);
+//        EqualityPrinter.printEqual(1, 1, 2);
+//        EqualityPrinter.printEqual(-1, -1, -1);
+//        EqualityPrinter.printEqual(1, 2, 3);
+
+        /* Playing Cat */
+        PlayingCat.isCatPlaying(true, 10);
+        PlayingCat.isCatPlaying(false, 36);
+        PlayingCat.isCatPlaying(false, 35);
+
     }
 }
