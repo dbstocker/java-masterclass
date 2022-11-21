@@ -57,9 +57,20 @@ public class Main {
 //        EqualityPrinter.printEqual(1, 2, 3);
 
         /* Playing Cat */
-        PlayingCat.isCatPlaying(true, 10);
-        PlayingCat.isCatPlaying(false, 36);
-        PlayingCat.isCatPlaying(false, 35);
+//        PlayingCat.isCatPlaying(true, 10);
+//        PlayingCat.isCatPlaying(false, 36);
+//        PlayingCat.isCatPlaying(false, 35);
 
+        /* Number In Word */
+//        NumberInWord.printNumberInWord(15);
+//        NumberInWord.printNumberInWord(0);
+//        NumberInWord.printNumberInWord(7);
+
+        /* Number of Days in Month */
+        DaysInMonth.getDaysInMonth(1, 2020);
+        DaysInMonth.getDaysInMonth(2, 2020);
+        DaysInMonth.getDaysInMonth(2, 2018);
+        DaysInMonth.getDaysInMonth(-1, 2020);
+        DaysInMonth.getDaysInMonth(1, -2020);
     }
 }
