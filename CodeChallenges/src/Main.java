@@ -2,6 +2,17 @@ import challenges.*;
 
 public class Main {
     public static void main(String[] args) {
+        /* Scratch */
+//        Scratch.interestLoop();
+//        System.out.println("\n");
+//        Scratch.interestReverseLoop();
+//        System.out.println("\n");
+//        Scratch.findPrimes();
+//        Scratch.sumThreeAndFive();
+//        System.out.println(Scratch.isEvenNumber(2));
+//        System.out.println(Scratch.isEvenNumber(3));
+//        Scratch.findEvens();
+
         /* Speed Converter */
 //        SpeedConverter.printConversion(1.5d);
 //        SpeedConverter.printConversion(10.25d);
@@ -67,10 +78,18 @@ public class Main {
 //        NumberInWord.printNumberInWord(7);
 
         /* Number of Days in Month */
-        DaysInMonth.getDaysInMonth(1, 2020);
-        DaysInMonth.getDaysInMonth(2, 2020);
-        DaysInMonth.getDaysInMonth(2, 2018);
-        DaysInMonth.getDaysInMonth(-1, 2020);
-        DaysInMonth.getDaysInMonth(1, -2020);
+//        DaysInMonth.getDaysInMonth(1, 2020);
+//        DaysInMonth.getDaysInMonth(2, 2020);
+//        DaysInMonth.getDaysInMonth(2, 2018);
+//        DaysInMonth.getDaysInMonth(-1, 2020);
+//        DaysInMonth.getDaysInMonth(1, -2020);
+
+        /* Digit Sum */
+        System.out.println(DigitSum.sumDigits(125));
+        System.out.println(DigitSum.sumDigits(4372));
+        System.out.println(DigitSum.sumDigits(3));
+        System.out.println(DigitSum.sumDigits(57985));
+        System.out.println(DigitSum.sumDigits(-42));
+
     }
 }
