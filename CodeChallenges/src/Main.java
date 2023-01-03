@@ -96,7 +96,10 @@ public class Main {
 //        Scratch.nameAndAge();
 
         /* Reading User Input Challenge */
-        ReadingUserInputChallenge.addTenEntries();
+//        ReadingUserInputChallenge.addTenEntries();
+
+        /* Minimum and Maximum */
+        MinimumAndMaximum.userInputs();
 
     }
 }
