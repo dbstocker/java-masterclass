@@ -1,6 +1,7 @@
 package challenges;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class Scratch {
     public static void interestLoop () {
@@ -88,5 +89,48 @@ public class Scratch {
         System.out.println("Total evens: " + evenCount);
     }
 
+    /* Parsing String Values */
+    public static void stringParse() {
+        String numStr = "2022";
+        System.out.println("numStr = " + numStr);
 
+        int num = Integer.parseInt(numStr);
+        System.out.println("num = " + num);
+        numStr += 1; // converts int 1 to a string "1" and appends to numStr
+        num += 1; // adds int 1 to parsed int value of num from previous operation
+
+        System.out.println("\nnumStr = " + numStr);
+        System.out.println("***************");
+        System.out.println("num = " + num);
+    }
+
+    /* Reading User Input */
+
+    public static void nameAndAge() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter your year of birth: ");
+
+        boolean hasNextInt = scanner.hasNextInt();
+
+        if (hasNextInt) {
+            int yob = scanner.nextInt();
+            scanner.nextLine();
+
+            System.out.println("Enter your name: ");
+            String name = scanner.nextLine();
+
+            int age = 2022 - yob;
+
+            if (age >= 0 && age <= 100) {
+                System.out.println("Your name is " + name + ", and you are " + age + " years old.");
+            } else {
+                System.out.println("Invalid year of birth.");
+            }
+        } else {
+            System.out.println("Unable to parse year of birth.");
+        }
+
+        scanner.close();
+    }
 }

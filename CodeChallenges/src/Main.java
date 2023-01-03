@@ -11,7 +11,8 @@ public class Main {
 //        Scratch.sumThreeAndFive();
 //        System.out.println(Scratch.isEvenNumber(2));
 //        System.out.println(Scratch.isEvenNumber(3));
-//        Scratch.findEvens();
+//        Scratch.fdoindEvens();
+//        Scratch.stringParse();
 
         /* Speed Converter */
 //        SpeedConverter.printConversion(1.5d);
@@ -85,11 +86,17 @@ public class Main {
 //        DaysInMonth.getDaysInMonth(1, -2020);
 
         /* Digit Sum */
-        System.out.println(DigitSum.sumDigits(125));
-        System.out.println(DigitSum.sumDigits(4372));
-        System.out.println(DigitSum.sumDigits(3));
-        System.out.println(DigitSum.sumDigits(57985));
-        System.out.println(DigitSum.sumDigits(-42));
+//        System.out.println(DigitSum.sumDigits(125));
+//        System.out.println(DigitSum.sumDigits(4372));
+//        System.out.println(DigitSum.sumDigits(3));
+//        System.out.println(DigitSum.sumDigits(57985));
+//        System.out.println(DigitSum.sumDigits(-42));
+
+        /* Name and Age */
+//        Scratch.nameAndAge();
+
+        /* Reading User Input Challenge */
+        ReadingUserInputChallenge.addTenEntries();
 
     }
 }
