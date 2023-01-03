@@ -2,6 +2,18 @@ import challenges.*;
 
 public class Main {
     public static void main(String[] args) {
+        /* Scratch */
+//        Scratch.interestLoop();
+//        System.out.println("\n");
+//        Scratch.interestReverseLoop();
+//        System.out.println("\n");
+//        Scratch.findPrimes();
+//        Scratch.sumThreeAndFive();
+//        System.out.println(Scratch.isEvenNumber(2));
+//        System.out.println(Scratch.isEvenNumber(3));
+//        Scratch.fdoindEvens();
+//        Scratch.stringParse();
+
         /* Speed Converter */
 //        SpeedConverter.printConversion(1.5d);
 //        SpeedConverter.printConversion(10.25d);
@@ -57,9 +69,37 @@ public class Main {
 //        EqualityPrinter.printEqual(1, 2, 3);
 
         /* Playing Cat */
-        PlayingCat.isCatPlaying(true, 10);
-        PlayingCat.isCatPlaying(false, 36);
-        PlayingCat.isCatPlaying(false, 35);
+//        PlayingCat.isCatPlaying(true, 10);
+//        PlayingCat.isCatPlaying(false, 36);
+//        PlayingCat.isCatPlaying(false, 35);
+
+        /* Number In Word */
+//        NumberInWord.printNumberInWord(15);
+//        NumberInWord.printNumberInWord(0);
+//        NumberInWord.printNumberInWord(7);
+
+        /* Number of Days in Month */
+//        DaysInMonth.getDaysInMonth(1, 2020);
+//        DaysInMonth.getDaysInMonth(2, 2020);
+//        DaysInMonth.getDaysInMonth(2, 2018);
+//        DaysInMonth.getDaysInMonth(-1, 2020);
+//        DaysInMonth.getDaysInMonth(1, -2020);
+
+        /* Digit Sum */
+//        System.out.println(DigitSum.sumDigits(125));
+//        System.out.println(DigitSum.sumDigits(4372));
+//        System.out.println(DigitSum.sumDigits(3));
+//        System.out.println(DigitSum.sumDigits(57985));
+//        System.out.println(DigitSum.sumDigits(-42));
+
+        /* Name and Age */
+//        Scratch.nameAndAge();
+
+        /* Reading User Input Challenge */
+//        ReadingUserInputChallenge.addTenEntries();
+
+        /* Minimum and Maximum */
+        MinimumAndMaximum.userInputs();
 
     }
 }
