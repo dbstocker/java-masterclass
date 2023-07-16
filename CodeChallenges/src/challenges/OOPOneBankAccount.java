@@ -7,6 +7,28 @@ public class OOPOneBankAccount {
     private String customerEmail;
     private String customerPhone;
 
+    public OOPOneBankAccount() {
+        System.out.println("Empty constructor called");
+    }
+
+    public OOPOneBankAccount(String accountNumber, double accountBalance, String customerName,
+                             String customerEmail, String customerPhone) {
+        System.out.println("Constructor with parameters called");
+
+        this.accountNumber = accountNumber;
+        this.accountBalance = accountBalance;
+        this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.customerPhone = customerPhone;
+
+    }
+
+    public OOPOneBankAccount(String customerName, String customerEmail, String customerPhone) {
+        this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.customerPhone = customerPhone;
+    }
+
     public String getAccountNumber() {
         return accountNumber;
     }
