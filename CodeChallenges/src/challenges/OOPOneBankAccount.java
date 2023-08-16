@@ -8,12 +8,16 @@ public class OOPOneBankAccount {
     private String customerPhone;
 
     public OOPOneBankAccount() {
+        /* using this() to chain in one of the declared constructors */
+        this("0000", 0.0d, "default name",
+                "default email", "default phone");
         System.out.println("Empty constructor called");
     }
 
     public OOPOneBankAccount(String accountNumber, double accountBalance, String customerName,
                              String customerEmail, String customerPhone) {
-        System.out.println("Constructor with parameters called");
+
+        System.out.println("Constructor with 5 parameters called");
 
         this.accountNumber = accountNumber;
         this.accountBalance = accountBalance;
@@ -24,9 +28,13 @@ public class OOPOneBankAccount {
     }
 
     public OOPOneBankAccount(String customerName, String customerEmail, String customerPhone) {
-        this.customerName = customerName;
-        this.customerEmail = customerEmail;
-        this.customerPhone = customerPhone;
+        this("0000", 0.0d, customerName, customerEmail, customerPhone);
+
+        System.out.println("Constructor with 3 parameters called");
+
+//        this.customerName = customerName;
+//        this.customerEmail = customerEmail;
+//        this.customerPhone = customerPhone;
     }
 
     public String getAccountNumber() {
@@ -50,6 +58,7 @@ public class OOPOneBankAccount {
     }
 
     public void printDetails() {
+        System.out.println("\n");
         System.out.println(this.getCustomerName());
         System.out.println(this.getCustomerPhone());
         System.out.println(this.getCustomerEmail());

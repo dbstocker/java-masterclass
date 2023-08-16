@@ -103,25 +103,38 @@ public class Main {
 
         /* OOP Part One Bank Account */
 
-        OOPOneBankAccount davidChecking = new OOPOneBankAccount();
+//        OOPOneBankAccount davidChecking = new OOPOneBankAccount();
+//
+//        davidChecking.setAccountNumber("0001");
+//        davidChecking.setCustomerName("David");
+//        davidChecking.setCustomerPhone("8041234567");
+//        davidChecking.setCustomerEmail("david@bank.net");
+//        davidChecking.setAccountBalance(100.00d);
+//        System.out.println(davidChecking.getAccountBalance());
+//        davidChecking.deposit(50.00d);
+//        System.out.println(davidChecking.getAccountBalance());
+//        davidChecking.withdrawal(151.98);
+//        System.out.println(davidChecking.getAccountBalance());
+//        davidChecking.withdrawal(51.67);
+//        System.out.println(davidChecking.getAccountBalance());
+//        davidChecking.printDetails();
+//
+//        OOPOneBankAccount davidSavings = new OOPOneBankAccount("1001", 1000.00d,
+//                "David", "david@bank.net", "8041234567");
+//        davidSavings.printDetails();
+//
+//        OOPOneBankAccount davidSavings2 = new OOPOneBankAccount("David", "david@bank.com", "8041234567");
+//        davidSavings2.printDetails();
 
-        davidChecking.setAccountNumber("0001");
-        davidChecking.setCustomerName("David");
-        davidChecking.setCustomerPhone("8041234567");
-        davidChecking.setCustomerEmail("david@bank.net");
-        davidChecking.setAccountBalance(100.00d);
-        System.out.println(davidChecking.getAccountBalance());
-        davidChecking.deposit(50.00d);
-        System.out.println(davidChecking.getAccountBalance());
-        davidChecking.withdrawal(151.98);
-        System.out.println(davidChecking.getAccountBalance());
-        davidChecking.withdrawal(51.67);
-        System.out.println(davidChecking.getAccountBalance());
-        davidChecking.printDetails();
+        /* OOP Part One Constructor Challenge */
 
-        OOPOneBankAccount davidSavings = new OOPOneBankAccount("1001", 1000.00d,
-                "David", "david@bank.net", "8041234567");
+        OOPConstructorChallenge davidCard1 = new OOPConstructorChallenge();
+        davidCard1.printDetails();
 
-        davidSavings.printDetails();
+        OOPConstructorChallenge davidCard2 = new OOPConstructorChallenge("David", "david.@card.com");
+        davidCard2.printDetails();
+
+        OOPConstructorChallenge davidCard3 = new OOPConstructorChallenge("David", 2000d, "david@card.com");
+        davidCard3.printDetails();
     }
 }
