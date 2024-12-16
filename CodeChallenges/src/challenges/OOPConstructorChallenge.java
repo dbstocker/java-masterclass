@@ -17,7 +17,6 @@ public class OOPConstructorChallenge {
     
     String name;
     double creditLimit;
-
     String email;
 
     public String getName() {
